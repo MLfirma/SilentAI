@@ -1,0 +1,86 @@
+STUDENT CONCERN FORM - mag lalagay si student ng pangalan nya ,email kung saang department at ilalagay ang concern nya adter nyan pwede nanya i submit ito.
+
+http://localhost/student-concern-system/student/submit.php
+________________
+TRACK MY CONCERN 
+
+after mag submit ni student ng concern 
+pwede nyang i track ang status ng kanyang concern nya sa nareceived nya na ticket number at gamit ang kanyang email.
+
+example 
+
+Ticket ID: 27
+Email : firmamarylloyd@gmail.com
+
+after ma track iyun makikita ni student kung ano na ang status ng kanyang concern kung saan sya na aassign halimbawa academic ang pinili nya na department at sa deans office sya inaasign dahil sa reklamo nya sa mga prof.
+
+http://localhost/student-concern-system/track.php
+______________________________________________________________________
+may tatlong department dashboard 
+sa kada department may mga nakatalaga 
+
+example: Academic Department Dashboard
+
+sa loob ng dashboard may 
+registrar 
+dean's office
+IT
+HR
+BSA
+EDUC ---lahat ng yan ay makakapag access sa academic dashboard at depende sa concern ni student kung paano ma escalated sa bawat department ang concern 
+
+click sa  action -view -- kung ano ang concern ni student sa option mamimili ang may access kung saang department i aassign si student related sa concern nya.
+
+click update status may option kung for escalation or other option
+
+
+ganon din sa iba ibang department
+
+http://localhost/student-concern-system/admin/academic_dashboard.php
+http://localhost/student-concern-system/admin/financial_dashboard.php
+http://localhost/student-concern-system/admin/welfare_dashboard.php
+
+_____________________________________________________________________
+
+sa ADMIN DASHBOARD NAMAN 
+
+ito ay monitoring para sa lahat ng department nakarecord dito
+name ni student
+email
+category - department o kung saan sya na assigned.
+status
+date
+ 
+meron ding Department analytics para ma kita kung saan ang may pinaka mataas na department may pumapasok na concern .
+
+naka filter nadin kung ilan ang total,escalated,pending at resolved
+pwedering i search ito mula sa old o sa new 
+
+may lalabas din na warning sign kapag overdue na dipa nababasa sa kada department ang concern 2days pataas manonotify si admin na dipa inaasikaso ng department ito.
+
+meron ding ai na pwede makatulong sa dean upang i itanong kung ilan ang pendeng ngayong araw o kung ilan ang naresolve at iba pa na related sa loob ng dashboard.
+
+
+sa Manage Accounts sa loob nito ay 
+si admin lang ang may karapatan na mag create o register kung may bagong ilalagay per department 
+
+example 
+
+nilagay ni admin si mr tanael para makapag access saloob ng admin 
+
+create user: Name , Email, Password ,role and click create
+
+pwede rin mag update ng new password or kung lilipat sa ibang department 
+
+also pwede rin sya mag delete ng users.
+
+http://localhost/student-concern-system/admin/dashboard.php
+http://localhost/student-concern-system/admin/manage_accounts.php
+
+
+
+
+
+
+
+
